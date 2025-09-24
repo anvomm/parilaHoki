@@ -1,0 +1,25 @@
+.main {
+  padding: 8rem 2rem;
+  position: relative;
+
+  @media screen and (min-width: 549px)  {
+    padding: 17rem 10rem 0 10rem;
+  }
+}
+
+.text-wrap {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: white;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
